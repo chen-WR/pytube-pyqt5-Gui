@@ -279,13 +279,10 @@ class Video:
 		self.convertMusic()
 
 def main():
-	# pass
 	url = input()
-	path = "C://Users//School//Desktop//New folder"
-	video = Video(url, path)
-	video.getSingle()
+	path = "C://Users//CR//Downloads"
+	video = Video(url, path, 100, True)
 	video.downloadSingleVideo()
 	
 if __name__ == "__main__":
 	main()
-
