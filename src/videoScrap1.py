@@ -9,10 +9,10 @@ from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 import time
 import os
-from threading import Thread
+import re
 
 class Tab:
-	def __init__(self, keyword=None, maxVideo=30):
+	def __init__(self, keyword=None, maxVideo=None):
 		self.list = []
 		self.keyword = keyword
 		self.maxVideo = maxVideo
@@ -24,52 +24,60 @@ class Tab:
 	        base_path = os.path.dirname(__file__)
 	    return os.path.join(base_path, relative_path)
 
-	def searchdriverInit(self):
+	def driverInit(self):
 		self.option = webdriver.ChromeOptions()
-		# self.option.add_argument("headless")
+		self.option.add_argument("headless")
 		self.driver = webdriver.Chrome(executable_path=self.resource_path('./binary/chromedriver.exe'),options=self.option)
-		self.driver.maximize_window()
+		# self.driver.maximize_window()
+
+	def searchDriver(self):
+		self.driverInit()
 		self.driver.get("http://www.youtube.com/")
 		search = self.driver.find_element_by_name("search_query")
 		search.send_keys(self.keyword)
 		search.submit()
 
-	def singleVideo(self):
-		query1 = self.driver.find_elements_by_id("video-title")
-		for result in query1:
-			video = result.get_attribute("href")
-			if video is not None:
-				if video not in self.list:
-					self.list.append(video)
+	def channelDriver(self):
+		self.driverInit()
+		self.driver.get(self.keyword)
 
-	def listVideo(self):
-		query2 = self.driver.find_elements_by_css_selector("a.yt-simple-endpoint.style-scope.yt-formatted-string")
-		for result in query2:
-			playlist = result.get_attribute("href")
-			if playlist is not None and "playlist" in playlist:
-				videos = Playlist(playlist).video_urls		
-				for video in videos:
+	def getVideo(self):
+		while True:
+			query1 = self.driver.find_elements_by_id("video-title")
+			for result in query1:
+				video = result.get_attribute("href")
+				if video is not None:
 					if video not in self.list:
 						self.list.append(video)
-
-	def searchResult(self):
-		self.searchdriverInit()
-		thread1 = Thread(target=self.singleVideo).start()
-		thread2 = Thread(target=self.listVideo).start()
-		while True:
 			self.driver.execute_script("window.scrollTo(0, document.documentElement.scrollHeight);")
 			time.sleep(3)
 			if len(self.list) >= self.maxVideo:
 				break
-		return self.list[0:self.maxVideo]
+
+	def searchResult(self):
+		self.searchDriver()
+		self.getVideo()
+		self.driver.quit()
 
 	def channelResult(self):
-		pass
+		self.channelDriver()
+		self.getVideo()
+		self.driver.quit()
+
+	def start(self):
+		url = "https://www.youtube.com/c.*/.*"
+		if re.match(url, self.keyword):
+			self.channelResult()
+		else:
+			self.searchResult()
+		return self.list[0:self.maxVideo]
+
 
 def main():
-	tab = Tab("jpop")
-	li = tab.searchResult()
+	keyword = input()
+	tab = Tab(keyword)
+	tab.start()
 
-	
+
 if __name__ == "__main__":
 	main()

@@ -11,6 +11,7 @@ from videoScrap1 import Tab
 import os
 import subprocess
 import re
+import sys
 
 class Video:
 	def __init__(self, url, path):
@@ -21,23 +22,7 @@ class Video:
 		self.audio = f"{self.path}/tempAudio.mp4"
 		self.music = f"{self.path}/tempMusic.mp4"
 		self.title = ""
-		self.error = ""
 		self.repeat = 0
-		self.check = self.checkUrl()
-
-	# def checkUrl(self):
-	# 	single = 'https://www.youtube.com/watch?v=.*'
-	# 	playlist = 'https://www.youtube.com/playlist?list=.*'
-	# 	channel = 'https://www.youtube.com/c.*/.*/videos'
-	# 	if bool(re.match(single,self.url)):
-	# 		job = 1
-	# 	elif bool(re.match(playlist, self.url)):
-	# 		job = 2
-	# 	elif bool(re.match(channel,self.url)):
-	# 		job = 3
-	# 	else:
-	# 		job = 0
-	# 	return job
 		
 	def editText(self, title):
 		rmSpecial = re.sub("[\"<>:*?|/]", "", title)
@@ -77,7 +62,8 @@ class Video:
 			self.link = YouTube(self.url, on_progress_callback=on_progress)
 			self.title = self.editText(self.link.title)
 		except:
-			self.link = None				
+			self.link = None
+			# print(sys.exc_info()[0])				
 
 	def getVideo(self):
 		query1 = self.link.streams.filter(fps=60, only_video=True, file_extension="mp4", progressive=False)
@@ -127,6 +113,7 @@ class Video:
 			self.getMusic()
 			self.convertMusic()
 
+
 	def downloadMultVideo(self):
 		playlist = Playlist(self.url).video_urls
 		for video in playlist:
@@ -141,32 +128,31 @@ class Video:
 			self.getlink()
 			self.downloadSingleMusic()
 
-	def downloadSearchVideo(self):
-		tab = Tab(self.url)
-		for video in tab.searchResult():
+	def downloadSearchVideo(self,maxVideo):
+		tab = Tab(self.url, int(maxVideo))
+		for video in tab.start():
 			self.url = video
 			self.getlink()
 			self.downloadSingleVideo()
 
-	def downloadSearchMusic(self):
-		tab = Tab(self.url)
-		for video in tab.searchResult():
-			self.url = video
-			self.getlink()
-			self.downloadSingleMusic()
-
-	def downloadChannelVideo(self):
-		pass
-
-	def downloadChannelMusic(self):
-		pass
 
 def main():
-	while True:
-		url = input('url')
-		path = "C://Users//CR//Downloads"
-		video = Video(url, path)
-		print(video.check)
+	# 	single = 'https://www.youtube.com/watch?v=.*'
+	# 	playlist = 'https://www.youtube.com/playlist?list=.*'
+	# 	channel = 'https://www.youtube.com/c.*/.*/videos'
+	# 	if bool(re.match(single,self.url)):
+	# 		job = 1
+	# 	elif bool(re.match(playlist, self.url)):
+	# 		job = 2
+	# 	elif bool(re.match(channel,self.url)):
+	# 		job = 3
+	# 	else:
+	# 		job = 0
+	url = input('url')
+	num = validateNumber()
+	path = "C://Users//CR//Downloads//new"
+	video = Video(url, path)
+	video.downloadSearchVideo(num)
 	
 if __name__ == "__main__":
 	main()
