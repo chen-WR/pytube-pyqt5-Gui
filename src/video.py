@@ -1,8 +1,7 @@
-from pytube import YouTube
-from pytube import Playlist
-from pytube.cli import on_progress
+from pytube import YouTube, Playlist
 from helper import edit_title, ffmpeg_format, resource_path
-from videoScrap1 import Tab
+from threading import Thread
+import time
 import os
 import subprocess
 import re
@@ -91,22 +90,15 @@ class Video:
 			return link.title
 
 	def download_music(self):
-		link= self.get_link()
+		link = self.get_link()
 		if link is not None:
 			self.get_music(link)
 			return title
 
-	def download_video_playlist(self):
+	def download_playlist(self):
 		playlist = Playlist(self.url).videos
-		for link in playlist:
-			if link is not None:
-				self.get_video(link)
-
-	def download_music_playlist(self):
-		playlist = Playlist(self.url).videos
-		for link in playlist:
-			if link is not None:
-				self.get_music(link)
+		count = len(playlist)
+		return count,playlist
 
 	# def downloadSearchVideo(self,maxVideo):
 	# 	tab = Tab(self.url, int(maxVideo))
@@ -115,3 +107,18 @@ class Video:
 	# 		self.getlink()
 	# 		self.downloadSingleVideo()
 
+	def test(self):
+		playlist = Playlist(self.url).videos
+		count = len(playlist)
+		return count,playlist
+
+
+url = "https://www.youtube.com/playlist?list=PL0unWuWLqh0JJPqxuM7EY93cyfVa1lf9T"
+path = "c:/users/main/desktop"
+video = Video(url,path)
+
+count, lists = video.test()
+
+for link in lists:
+	print(link.title)
+	print("download")
