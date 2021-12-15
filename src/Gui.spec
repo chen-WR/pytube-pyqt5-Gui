@@ -5,7 +5,7 @@ block_cipher = None
 
 a = Analysis(['Gui.py'],
              pathex=['C:\\Users\\School\\Documents\\python\\script\\YouTubeDL'],
-             binaries=[("./binary/chromedriver.exe", "./binary"), ("./binary/ffmpeg.exe", "./binary")],
+             binaries=[("./binary/ffmpeg.exe", "./binary")],
              datas=[("./icon/icon.ico", "./icon"), ("./icon/help.ui", "./icon")],
              hiddenimports=[],
              hookspath=[],

@@ -4,9 +4,9 @@ import json
 
 
 def search_list(url):
-	url_list = list()
+	base_url = "https://youtube.com"
 
-	url = "https://www.youtube.com/results?search_query=jpop"
+	url_list = list()
 
 	res = requests.get(url)
 
@@ -31,8 +31,8 @@ def search_list(url):
 	data = hashmap["contents"]["twoColumnSearchResultsRenderer"]["primaryContents"]["sectionListRenderer"]["contents"][0]["itemSectionRenderer"]["contents"]
 
 	# create json file to see how the data is like with indentation
-	with open('example.json',"w") as file:
-		json.dump(data,file,indent=4)
+	# with open('example.json',"w") as file:
+	# 	json.dump(data,file,indent=4)
 
 	# only grabbing videoRenderer and playlistRenderer from the contents
 	for obj in data:
@@ -41,9 +41,7 @@ def search_list(url):
 		elif "playlistRenderer" in obj.keys():
 			url = obj["playlistRenderer"]["viewPlaylistText"]["runs"][0]["navigationEndpoint"]["commandMetadata"]["webCommandMetadata"]["url"]
 
-		video_list.append(url)
+		url_list.append(url)
 
-	for i in video_list:
-		print(i)
-
+	return [f"{base_url}{url}" for url in url_list]
 

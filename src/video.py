@@ -1,12 +1,8 @@
 from pytube import YouTube, Playlist
 from helper import edit_title, ffmpeg_format, resource_path
 from search import search_list
-from threading import Thread
-import time
 import os
 import subprocess
-import re
-import sys
 import logging
 
 class Video:
@@ -21,8 +17,6 @@ class Video:
 		self.video = f"{self.path}/tempVideo.mp4"
 		self.audio = f"{self.path}/tempAudio.mp4"
 		self.music = f"{self.path}/tempMusic.mp4"
-		self.dict = dict()
-
 
 	# set new path if user change the path
 	def set_path(self,path):
@@ -59,7 +53,14 @@ class Video:
 		return hashmap
 
 	def get_search_link(self,url):
+		hashmap = dict()
 		url_list = search_list(url)
+		for url in url_list:
+			if "watch" in url:
+				hashmap.update(self.get_single_link(url))
+			elif "playlist" in url:
+				hashmap.update(self.get_playlist_link(url))
+		return hashmap
 
 	def get_video(self,link,title):
 		def convert_video():
@@ -101,41 +102,3 @@ class Video:
 		music_query.first().download(self.path, filename=self.music)
 		convert_music()
 		self.remove_temp()
-
-
-	# def download_video(self,video_list):
-	# 	for video in video_list:
-	# 		link = self.get_link(video)
-	# 		if link is not None:
-	# 			self.get_video(link)
-			
-
-	# def download_music(self):
-	# 	link = self.get_link()
-	# 	if link is not None:
-	# 		self.get_music(link)
-	# 		return title
-
-	# def download_playlist(self):
-	# 	playlist = Playlist(self.url).videos
-	# 	count = len(playlist)
-		return count,playlist
-
-	# def downloadSearchVideo(self,maxVideo):
-	# 	tab = Tab(self.url, int(maxVideo))
-	# 	for video in tab.start():
-	# 		self.url = video
-	# 		self.getlink()
-	# 		self.downloadSingleVideo()
-
-	def test(self,url):
-		hm = self.get_single_link(url)
-		for i,j in hm.items():
-			print(i,"---------",j)
-
-url1 = "https://www.youtube.com/watch?v=IC-tUY1l_6E"
-url = "https://www.youtube.com/playlist?list=PL0unWuWLqh0JJPqxuM7EY93cyfVa1lf9T"
-path = "c:/users/main/desktop"
-video = Video(path)
-
-video.test(url1)

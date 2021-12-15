@@ -1735,3 +1735,593 @@ DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
 DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
 ERROR:root:name 'on_progress' is not defined
 DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.youtube.com:443
+DEBUG:urllib3.connectionpool:https://www.youtube.com:443 "GET /results?search_query=jpop HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.youtube.com:443
+DEBUG:urllib3.connectionpool:https://www.youtube.com:443 "GET /results?search_query=jpop HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.youtube.com:443
+DEBUG:urllib3.connectionpool:https://www.youtube.com:443 "GET /results?search_query=jpop HTTP/1.1" 200 None
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.youtube.com:443
+DEBUG:urllib3.connectionpool:https://www.youtube.com:443 "GET /results?search_query=jpop HTTP/1.1" 200 None
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.youtube.com:443
+DEBUG:urllib3.connectionpool:https://www.youtube.com:443 "GET /results?search_query=anime HTTP/1.1" 200 None
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.youtube.com:443
+DEBUG:urllib3.connectionpool:https://www.youtube.com:443 "GET /results?search_query=%E7%99%BD%E4%B8%9D HTTP/1.1" 200 None
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): www.youtube.com:80
+DEBUG:urllib3.connectionpool:http://www.youtube.com:80 "GET / HTTP/1.1" 301 0
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.youtube.com:443
+DEBUG:urllib3.connectionpool:https://www.youtube.com:443 "GET / HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): www.youtube.com:80
+DEBUG:urllib3.connectionpool:http://www.youtube.com:80 "GET / HTTP/1.1" 301 0
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.youtube.com:443
+DEBUG:urllib3.connectionpool:https://www.youtube.com:443 "GET / HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): www.youtube.com:80
+DEBUG:urllib3.connectionpool:http://www.youtube.com:80 "GET / HTTP/1.1" 301 0
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.youtube.com:443
+DEBUG:urllib3.connectionpool:https://www.youtube.com:443 "GET / HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): www.youtube.com:80
+DEBUG:urllib3.connectionpool:http://www.youtube.com:80 "GET / HTTP/1.1" 301 0
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.youtube.com:443
+DEBUG:urllib3.connectionpool:https://www.youtube.com:443 "GET / HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): www.youtube.com:80
+DEBUG:urllib3.connectionpool:http://www.youtube.com:80 "GET / HTTP/1.1" 301 0
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.youtube.com:443
+DEBUG:urllib3.connectionpool:https://www.youtube.com:443 "GET / HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): www.youtube.com:80
+DEBUG:urllib3.connectionpool:http://www.youtube.com:80 "GET / HTTP/1.1" 301 0
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.youtube.com:443
+DEBUG:urllib3.connectionpool:https://www.youtube.com:443 "GET / HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): www.youtube.com:80
+DEBUG:urllib3.connectionpool:http://www.youtube.com:80 "GET / HTTP/1.1" 301 0
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.youtube.com:443
+DEBUG:urllib3.connectionpool:https://www.youtube.com:443 "GET / HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): www.youtube.com:80
+DEBUG:urllib3.connectionpool:http://www.youtube.com:80 "GET / HTTP/1.1" 301 0
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.youtube.com:443
+DEBUG:urllib3.connectionpool:https://www.youtube.com:443 "GET / HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): www.youtube.com:80
+DEBUG:urllib3.connectionpool:http://www.youtube.com:80 "GET / HTTP/1.1" 301 0
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.youtube.com:443
+DEBUG:urllib3.connectionpool:https://www.youtube.com:443 "GET / HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): www.youtube.com:80
+DEBUG:urllib3.connectionpool:http://www.youtube.com:80 "GET / HTTP/1.1" 301 0
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.youtube.com:443
+DEBUG:urllib3.connectionpool:https://www.youtube.com:443 "GET / HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): www.youtube.com:80
+DEBUG:urllib3.connectionpool:http://www.youtube.com:80 "GET / HTTP/1.1" 301 0
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.youtube.com:443
+DEBUG:urllib3.connectionpool:https://www.youtube.com:443 "GET / HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): www.youtube.com:80
+DEBUG:urllib3.connectionpool:http://www.youtube.com:80 "GET / HTTP/1.1" 301 0
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.youtube.com:443
+DEBUG:urllib3.connectionpool:https://www.youtube.com:443 "GET / HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): www.youtube.com:80
+DEBUG:urllib3.connectionpool:http://www.youtube.com:80 "GET / HTTP/1.1" 301 0
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.youtube.com:443
+DEBUG:urllib3.connectionpool:https://www.youtube.com:443 "GET / HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): www.youtube.com:80
+DEBUG:urllib3.connectionpool:http://www.youtube.com:80 "GET / HTTP/1.1" 301 0
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.youtube.com:443
+DEBUG:urllib3.connectionpool:https://www.youtube.com:443 "GET / HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): www.youtube.com:80
+DEBUG:urllib3.connectionpool:http://www.youtube.com:80 "GET / HTTP/1.1" 301 0
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.youtube.com:443
+DEBUG:urllib3.connectionpool:https://www.youtube.com:443 "GET / HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): www.youtube.com:80
+DEBUG:urllib3.connectionpool:http://www.youtube.com:80 "GET / HTTP/1.1" 301 0
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.youtube.com:443
+DEBUG:urllib3.connectionpool:https://www.youtube.com:443 "GET / HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): www.youtube.com:80
+DEBUG:urllib3.connectionpool:http://www.youtube.com:80 "GET / HTTP/1.1" 301 0
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.youtube.com:443
+DEBUG:urllib3.connectionpool:https://www.youtube.com:443 "GET / HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): www.youtube.com:80
+DEBUG:urllib3.connectionpool:http://www.youtube.com:80 "GET / HTTP/1.1" 301 0
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.youtube.com:443
+DEBUG:urllib3.connectionpool:https://www.youtube.com:443 "GET / HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): www.youtube.com:80
+DEBUG:urllib3.connectionpool:http://www.youtube.com:80 "GET / HTTP/1.1" 301 0
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.youtube.com:443
+DEBUG:urllib3.connectionpool:https://www.youtube.com:443 "GET / HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): www.youtube.com:80
+DEBUG:urllib3.connectionpool:http://www.youtube.com:80 "GET / HTTP/1.1" 301 0
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.youtube.com:443
+DEBUG:urllib3.connectionpool:https://www.youtube.com:443 "GET / HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): www.youtube.com:80
+DEBUG:urllib3.connectionpool:http://www.youtube.com:80 "GET / HTTP/1.1" 301 0
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.youtube.com:443
+DEBUG:urllib3.connectionpool:https://www.youtube.com:443 "GET / HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): www.youtube.com:80
+DEBUG:urllib3.connectionpool:http://www.youtube.com:80 "GET / HTTP/1.1" 301 0
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.youtube.com:443
+DEBUG:urllib3.connectionpool:https://www.youtube.com:443 "GET / HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): www.youtube.com:80
+DEBUG:urllib3.connectionpool:http://www.youtube.com:80 "GET / HTTP/1.1" 301 0
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.youtube.com:443
+DEBUG:urllib3.connectionpool:https://www.youtube.com:443 "GET / HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): www.youtube.com:80
+DEBUG:urllib3.connectionpool:http://www.youtube.com:80 "GET / HTTP/1.1" 301 0
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.youtube.com:443
+DEBUG:urllib3.connectionpool:https://www.youtube.com:443 "GET / HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): www.youtube.com:80
+DEBUG:urllib3.connectionpool:http://www.youtube.com:80 "GET / HTTP/1.1" 301 0
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.youtube.com:443
+DEBUG:urllib3.connectionpool:https://www.youtube.com:443 "GET / HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): www.youtube.com:80
+DEBUG:urllib3.connectionpool:http://www.youtube.com:80 "GET / HTTP/1.1" 301 0
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.youtube.com:443
+DEBUG:urllib3.connectionpool:https://www.youtube.com:443 "GET / HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): www.youtube.com:80
+DEBUG:urllib3.connectionpool:http://www.youtube.com:80 "GET / HTTP/1.1" 301 0
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.youtube.com:443
+DEBUG:urllib3.connectionpool:https://www.youtube.com:443 "GET / HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): www.youtube.com:80
+DEBUG:urllib3.connectionpool:http://www.youtube.com:80 "GET / HTTP/1.1" 301 0
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.youtube.com:443
+DEBUG:urllib3.connectionpool:https://www.youtube.com:443 "GET / HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): www.youtube.com:80
+DEBUG:urllib3.connectionpool:http://www.youtube.com:80 "GET / HTTP/1.1" 301 0
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.youtube.com:443
+DEBUG:urllib3.connectionpool:https://www.youtube.com:443 "GET / HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): www.youtube.com:80
+DEBUG:urllib3.connectionpool:http://www.youtube.com:80 "GET / HTTP/1.1" 301 0
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.youtube.com:443
+DEBUG:urllib3.connectionpool:https://www.youtube.com:443 "GET / HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): www.youtube.com:80
+DEBUG:urllib3.connectionpool:http://www.youtube.com:80 "GET / HTTP/1.1" 301 0
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.youtube.com:443
+DEBUG:urllib3.connectionpool:https://www.youtube.com:443 "GET / HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): www.youtube.com:80
+DEBUG:urllib3.connectionpool:http://www.youtube.com:80 "GET / HTTP/1.1" 301 0
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.youtube.com:443
+DEBUG:urllib3.connectionpool:https://www.youtube.com:443 "GET / HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): www.youtube.com:80
+DEBUG:urllib3.connectionpool:http://www.youtube.com:80 "GET / HTTP/1.1" 301 0
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.youtube.com:443
+DEBUG:urllib3.connectionpool:https://www.youtube.com:443 "GET / HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): www.youtube.com:80
+DEBUG:urllib3.connectionpool:http://www.youtube.com:80 "GET / HTTP/1.1" 301 0
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.youtube.com:443
+DEBUG:urllib3.connectionpool:https://www.youtube.com:443 "GET / HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): www.youtube.com:80
+DEBUG:urllib3.connectionpool:http://www.youtube.com:80 "GET / HTTP/1.1" 301 0
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.youtube.com:443
+DEBUG:urllib3.connectionpool:https://www.youtube.com:443 "GET / HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): www.youtube.com:80
+DEBUG:urllib3.connectionpool:http://www.youtube.com:80 "GET / HTTP/1.1" 301 0
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.youtube.com:443
+DEBUG:urllib3.connectionpool:https://www.youtube.com:443 "GET / HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): www.youtube.com:80
+DEBUG:urllib3.connectionpool:http://www.youtube.com:80 "GET / HTTP/1.1" 301 0
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.youtube.com:443
+DEBUG:urllib3.connectionpool:https://www.youtube.com:443 "GET / HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): www.youtube.com:80
+DEBUG:urllib3.connectionpool:http://www.youtube.com:80 "GET / HTTP/1.1" 301 0
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.youtube.com:443
+DEBUG:urllib3.connectionpool:https://www.youtube.com:443 "GET / HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): www.youtube.com:80
+DEBUG:urllib3.connectionpool:http://www.youtube.com:80 "GET / HTTP/1.1" 301 0
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.youtube.com:443
+DEBUG:urllib3.connectionpool:https://www.youtube.com:443 "GET / HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): www.youtube.com:80
+DEBUG:urllib3.connectionpool:http://www.youtube.com:80 "GET / HTTP/1.1" 301 0
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.youtube.com:443
+DEBUG:urllib3.connectionpool:https://www.youtube.com:443 "GET / HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): www.youtube.com:80
+DEBUG:urllib3.connectionpool:http://www.youtube.com:80 "GET / HTTP/1.1" 301 0
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.youtube.com:443
+DEBUG:urllib3.connectionpool:https://www.youtube.com:443 "GET / HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): www.youtube.com:80
+DEBUG:urllib3.connectionpool:http://www.youtube.com:80 "GET / HTTP/1.1" 301 0
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.youtube.com:443
+DEBUG:urllib3.connectionpool:https://www.youtube.com:443 "GET / HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): www.youtube.com:80
+DEBUG:urllib3.connectionpool:http://www.youtube.com:80 "GET / HTTP/1.1" 301 0
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.youtube.com:443
+DEBUG:urllib3.connectionpool:https://www.youtube.com:443 "GET / HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): www.youtube.com:80
+DEBUG:urllib3.connectionpool:http://www.youtube.com:80 "GET / HTTP/1.1" 301 0
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.youtube.com:443
+DEBUG:urllib3.connectionpool:https://www.youtube.com:443 "GET / HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): www.youtube.com:80
+DEBUG:urllib3.connectionpool:http://www.youtube.com:80 "GET / HTTP/1.1" 301 0
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.youtube.com:443
+DEBUG:urllib3.connectionpool:https://www.youtube.com:443 "GET / HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): www.youtube.com:80
+DEBUG:urllib3.connectionpool:http://www.youtube.com:80 "GET / HTTP/1.1" 301 0
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.youtube.com:443
+DEBUG:urllib3.connectionpool:https://www.youtube.com:443 "GET / HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): www.youtube.com:80
+DEBUG:urllib3.connectionpool:http://www.youtube.com:80 "GET / HTTP/1.1" 301 0
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.youtube.com:443
+DEBUG:urllib3.connectionpool:https://www.youtube.com:443 "GET / HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): www.youtube.com:80
+DEBUG:urllib3.connectionpool:http://www.youtube.com:80 "GET / HTTP/1.1" 301 0
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.youtube.com:443
+DEBUG:urllib3.connectionpool:https://www.youtube.com:443 "GET / HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): www.youtube.com:80
+DEBUG:urllib3.connectionpool:http://www.youtube.com:80 "GET / HTTP/1.1" 301 0
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.youtube.com:443
+DEBUG:urllib3.connectionpool:https://www.youtube.com:443 "GET / HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): www.youtube.com:80
+DEBUG:urllib3.connectionpool:http://www.youtube.com:80 "GET / HTTP/1.1" 301 0
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.youtube.com:443
+DEBUG:urllib3.connectionpool:https://www.youtube.com:443 "GET / HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): www.youtube.com:80
+DEBUG:urllib3.connectionpool:http://www.youtube.com:80 "GET / HTTP/1.1" 301 0
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.youtube.com:443
+DEBUG:urllib3.connectionpool:https://www.youtube.com:443 "GET / HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): www.youtube.com:80
+DEBUG:urllib3.connectionpool:http://www.youtube.com:80 "GET / HTTP/1.1" 301 0
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.youtube.com:443
+DEBUG:urllib3.connectionpool:https://www.youtube.com:443 "GET / HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): www.youtube.com:80
+DEBUG:urllib3.connectionpool:http://www.youtube.com:80 "GET / HTTP/1.1" 301 0
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.youtube.com:443
+DEBUG:urllib3.connectionpool:https://www.youtube.com:443 "GET / HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): www.youtube.com:80
+DEBUG:urllib3.connectionpool:http://www.youtube.com:80 "GET / HTTP/1.1" 301 0
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.youtube.com:443
+DEBUG:urllib3.connectionpool:https://www.youtube.com:443 "GET / HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): www.youtube.com:80
+DEBUG:urllib3.connectionpool:http://www.youtube.com:80 "GET / HTTP/1.1" 301 0
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.youtube.com:443
+DEBUG:urllib3.connectionpool:https://www.youtube.com:443 "GET / HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): www.youtube.com:80
+DEBUG:urllib3.connectionpool:http://www.youtube.com:80 "GET / HTTP/1.1" 301 0
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.youtube.com:443
+DEBUG:urllib3.connectionpool:https://www.youtube.com:443 "GET / HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): www.youtube.com:80
+DEBUG:urllib3.connectionpool:http://www.youtube.com:80 "GET / HTTP/1.1" 301 0
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.youtube.com:443
+DEBUG:urllib3.connectionpool:https://www.youtube.com:443 "GET / HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): www.youtube.com:80
+DEBUG:urllib3.connectionpool:http://www.youtube.com:80 "GET / HTTP/1.1" 301 0
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.youtube.com:443
+DEBUG:urllib3.connectionpool:https://www.youtube.com:443 "GET / HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): www.youtube.com:80
+DEBUG:urllib3.connectionpool:http://www.youtube.com:80 "GET / HTTP/1.1" 301 0
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.youtube.com:443
+DEBUG:urllib3.connectionpool:https://www.youtube.com:443 "GET / HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): www.youtube.com:80
+DEBUG:urllib3.connectionpool:http://www.youtube.com:80 "GET / HTTP/1.1" 301 0
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.youtube.com:443
+DEBUG:urllib3.connectionpool:https://www.youtube.com:443 "GET / HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): www.youtube.com:80
+DEBUG:urllib3.connectionpool:http://www.youtube.com:80 "GET / HTTP/1.1" 301 0
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.youtube.com:443
+DEBUG:urllib3.connectionpool:https://www.youtube.com:443 "GET / HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): www.youtube.com:80
+DEBUG:urllib3.connectionpool:http://www.youtube.com:80 "GET / HTTP/1.1" 301 0
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.youtube.com:443
+DEBUG:urllib3.connectionpool:https://www.youtube.com:443 "GET / HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): www.youtube.com:80
+DEBUG:urllib3.connectionpool:http://www.youtube.com:80 "GET / HTTP/1.1" 301 0
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.youtube.com:443
+DEBUG:urllib3.connectionpool:https://www.youtube.com:443 "GET / HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): www.youtube.com:80
+DEBUG:urllib3.connectionpool:http://www.youtube.com:80 "GET / HTTP/1.1" 301 0
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.youtube.com:443
+DEBUG:urllib3.connectionpool:https://www.youtube.com:443 "GET / HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): www.youtube.com:80
+DEBUG:urllib3.connectionpool:http://www.youtube.com:80 "GET / HTTP/1.1" 301 0
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.youtube.com:443
+DEBUG:urllib3.connectionpool:https://www.youtube.com:443 "GET / HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): www.youtube.com:80
+DEBUG:urllib3.connectionpool:http://www.youtube.com:80 "GET / HTTP/1.1" 301 0
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.youtube.com:443
+DEBUG:urllib3.connectionpool:https://www.youtube.com:443 "GET / HTTP/1.1" 200 None
