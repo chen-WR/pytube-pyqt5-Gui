@@ -1,48 +1,49 @@
-from pytube import YouTube,Playlist
 import requests
 from bs4 import BeautifulSoup
 import json
 
-video_list = list()
 
-url = "https://www.youtube.com/results?search_query=jpop"
+def search_list(url):
+	url_list = list()
 
-res = requests.get(url)
+	url = "https://www.youtube.com/results?search_query=jpop"
 
-soup = BeautifulSoup(res.text,'lxml')
+	res = requests.get(url)
 
-# source will contain all youtube page element tag of "Script"
-source = soup.find_all('script')
+	soup = BeautifulSoup(res.text,'lxml')
 
-# the 34th or index 33 of those script is the one containing all the video data to the links of the videos
-javascript = str(source[33])
+	# source will contain all youtube page element tag of "Script"
+	source = soup.find_all('script')
 
-# remove all unneccessary string from the data to make it json like
-json1 = javascript.split('var ytInitialData = ')
+	# the 34th or index 33 of those script is the one containing all the video data to the links of the videos
+	javascript = str(source[33])
 
-# continue remove unneccessary string from the data
-json2 = json1[1].split(';</script>')
+	# remove all unneccessary string from the data to make it json like
+	json1 = javascript.split('var ytInitialData = ')
 
-# use json lib to load the string data in as a dictionary
-hashmap = json.loads(json2[0])
+	# continue remove unneccessary string from the data
+	json2 = json1[1].split(';</script>')
 
-# after going through all the keys, the contents will be revealed
-data = hashmap["contents"]["twoColumnSearchResultsRenderer"]["primaryContents"]["sectionListRenderer"]["contents"][0]["itemSectionRenderer"]["contents"]
+	# use json lib to load the string data in as a dictionary
+	hashmap = json.loads(json2[0])
 
-# create json file to see how the data is like with indentation
-with open('example.json',"w") as file:
-	json.dump(data,file,indent=4)
+	# after going through all the keys, the contents will be revealed
+	data = hashmap["contents"]["twoColumnSearchResultsRenderer"]["primaryContents"]["sectionListRenderer"]["contents"][0]["itemSectionRenderer"]["contents"]
 
-# only grabbing videoRenderer and playlistRenderer from the contents
-for obj in data:
-	if "videoRenderer" in obj.keys():
-		url = obj["videoRenderer"]["navigationEndpoint"]["commandMetadata"]["webCommandMetadata"]["url"]
-	elif "playlistRenderer" in obj.keys():
-		url = obj["playlistRenderer"]["viewPlaylistText"]["runs"][0]["navigationEndpoint"]["commandMetadata"]["webCommandMetadata"]["url"]
+	# create json file to see how the data is like with indentation
+	with open('example.json',"w") as file:
+		json.dump(data,file,indent=4)
 
-	video_list.append(url)
+	# only grabbing videoRenderer and playlistRenderer from the contents
+	for obj in data:
+		if "videoRenderer" in obj.keys():
+			url = obj["videoRenderer"]["navigationEndpoint"]["commandMetadata"]["webCommandMetadata"]["url"]
+		elif "playlistRenderer" in obj.keys():
+			url = obj["playlistRenderer"]["viewPlaylistText"]["runs"][0]["navigationEndpoint"]["commandMetadata"]["webCommandMetadata"]["url"]
 
-for i in video_list:
-	print(i)
+		video_list.append(url)
+
+	for i in video_list:
+		print(i)
 
 

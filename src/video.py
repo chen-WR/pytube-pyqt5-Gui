@@ -1,5 +1,6 @@
 from pytube import YouTube, Playlist
 from helper import edit_title, ffmpeg_format, resource_path
+from search import search_list
 from threading import Thread
 import time
 import os
@@ -11,9 +12,7 @@ import logging
 class Video:
 	logging.basicConfig(filename='debug.log', encoding='utf-8', level=logging.DEBUG)
 
-	def __init__(self, url, path):
-		# youtube url, either watch or playlist in the link
-		self.url = url
+	def __init__(self, path):
 		# path to save the video/audio or music file to
 		self.path = path
 		# ffmpeg dir to use the bin to combine video and audio into one file
@@ -22,9 +21,14 @@ class Video:
 		self.video = f"{self.path}/tempVideo.mp4"
 		self.audio = f"{self.path}/tempAudio.mp4"
 		self.music = f"{self.path}/tempMusic.mp4"
-		# title of the file object
-		self.title = str()
+		self.dict = dict()
 
+
+	# set new path if user change the path
+	def set_path(self,path):
+		self.path = path
+
+	# temp file name doesnt change, so this method will remove any temp file in the path
 	def remove_temp(self):
 		if os.path.exists(self.video) or os.path.exists(self.audio):
 			os.remove(self.video)
@@ -32,18 +36,34 @@ class Video:
 		elif os.path.exists(self.music):
 			os.remove(self.music)
 
-	def get_link(self):
+	"""
+	Input url: youtube.com/watch?
+	add link and title to dictionary to be use later
+	"""
+	def get_single_link(self,url):
+		hashmap = dict()
 		try:
-			link = YouTube(self.url, on_progress_callback=on_progress)
-		except Exception as error:
-			logging.error(f"{error}")
-			link = None
-		finally:
-			return link
+			link = YouTube(url)
+			title = link.title
+			hashmap[title] = link
+			return hashmap
+		except Exception as e:
+			print(e)
 
-	def get_video(self,link):
+	def get_playlist_link(self,url):
+		hashmap = dict()
+		playlist = Playlist(url).videos
+		for link in playlist:
+			title = link.title
+			hashmap[title] = link
+		return hashmap
+
+	def get_search_link(self,url):
+		url_list = search_list(url)
+
+	def get_video(self,link,title):
 		def convert_video():
-			title = edit_title(link.title)
+			title = edit_title(title)
 			outputfile = f"{self.path}/{title}.mp4"
 			if os.path.exists(outputfile):
 				print(f"{title} already exists")
@@ -64,9 +84,9 @@ class Video:
 		convert_video()
 		self.remove_temp()
 
-	def get_music(self,link):
+	def get_music(self,link,title):
 		def convert_music():
-			title = edit_title(link.title)
+			title = edit_title(title)
 			outputfile = f"{self.path}/{title}.mp3"
 			if os.path.exists(outputfile):
 				print(f"{title} already exists")
@@ -83,21 +103,22 @@ class Video:
 		self.remove_temp()
 
 
-	def download_video(self):
-		link = self.get_link()
-		if link is not None:
-			self.get_video(link)
-			return link.title
+	# def download_video(self,video_list):
+	# 	for video in video_list:
+	# 		link = self.get_link(video)
+	# 		if link is not None:
+	# 			self.get_video(link)
+			
 
-	def download_music(self):
-		link = self.get_link()
-		if link is not None:
-			self.get_music(link)
-			return title
+	# def download_music(self):
+	# 	link = self.get_link()
+	# 	if link is not None:
+	# 		self.get_music(link)
+	# 		return title
 
-	def download_playlist(self):
-		playlist = Playlist(self.url).videos
-		count = len(playlist)
+	# def download_playlist(self):
+	# 	playlist = Playlist(self.url).videos
+	# 	count = len(playlist)
 		return count,playlist
 
 	# def downloadSearchVideo(self,maxVideo):
@@ -107,18 +128,14 @@ class Video:
 	# 		self.getlink()
 	# 		self.downloadSingleVideo()
 
-	def test(self):
-		playlist = Playlist(self.url).videos
-		count = len(playlist)
-		return count,playlist
+	def test(self,url):
+		hm = self.get_single_link(url)
+		for i,j in hm.items():
+			print(i,"---------",j)
 
-
+url1 = "https://www.youtube.com/watch?v=IC-tUY1l_6E"
 url = "https://www.youtube.com/playlist?list=PL0unWuWLqh0JJPqxuM7EY93cyfVa1lf9T"
 path = "c:/users/main/desktop"
-video = Video(url,path)
+video = Video(path)
 
-count, lists = video.test()
-
-for link in lists:
-	print(link.title)
-	print("download")
+video.test(url1)
