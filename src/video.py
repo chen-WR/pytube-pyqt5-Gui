@@ -4,6 +4,7 @@ from search import search_list
 import os
 import subprocess
 import logging
+import datetime
 
 class Video:
 	logging.basicConfig(filename='debug.log', encoding='utf-8', level=logging.DEBUG)
@@ -33,13 +34,21 @@ class Video:
 	"""
 	Input url: youtube.com/watch?
 	add link and title to dictionary to be use later
+	desire output = 
+	{title:
+		{
+			"video_length":length,
+			"video_object":link,
+		}
+	]}
 	"""
 	def get_single_link(self,url):
 		hashmap = dict()
 		try:
 			link = YouTube(url)
 			title = link.title
-			hashmap[title] = link
+			length = str(datetime.timedelta(seconds=link.length))
+			hashmap.update({title:{"video_length":length,"video_object":link}})
 			return hashmap
 		except Exception as e:
 			print(e)
@@ -49,7 +58,8 @@ class Video:
 		playlist = Playlist(url).videos
 		for link in playlist:
 			title = link.title
-			hashmap[title] = link
+			length = str(datetime.timedelta(seconds=link.length))
+			hashmap.update({title:{"video_length":length,"video_object":link}})
 		return hashmap
 
 	def get_search_link(self,url):
@@ -64,10 +74,10 @@ class Video:
 
 	def get_video(self,link,title):
 		def convert_video():
-			title = edit_title(title)
-			outputfile = f"{self.path}/{title}.mp4"
+			formated_title = edit_title(title)
+			outputfile = f"{self.path}/{formated_title}.mp4"
 			if os.path.exists(outputfile):
-				print(f"{title} already exists")
+				print(f"{formated_title} already exists")
 			else:
 				try:
 					command = f"{self.ffmpeg} -i {ffmpeg_format(self.video)} -i {ffmpeg_format(self.audio)} -c copy {ffmpeg_format(outputfile)} -hide_banner -loglevel error"
@@ -87,10 +97,10 @@ class Video:
 
 	def get_music(self,link,title):
 		def convert_music():
-			title = edit_title(title)
-			outputfile = f"{self.path}/{title}.mp3"
+			formated_title = edit_title(title)
+			outputfile = f"{self.path}/{formated_title}.mp3"
 			if os.path.exists(outputfile):
-				print(f"{title} already exists")
+				print(f"{formated_title} already exists")
 			else:
 				try:
 					command = f"{self.ffmpeg} -i {ffmpeg_format(self.music)} -b:a 192k -vn {ffmpeg_format(outputfile)} -hide_banner -loglevel error"
@@ -102,3 +112,4 @@ class Video:
 		music_query.first().download(self.path, filename=self.music)
 		convert_music()
 		self.remove_temp()
+		

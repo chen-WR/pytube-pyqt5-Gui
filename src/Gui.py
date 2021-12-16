@@ -13,12 +13,14 @@ from PyQt5 import uic
 class App(QMainWindow):
 	def __init__(self):
 		super().__init__()
-		self.videos = dict()
+		self.hashmap = dict()
 		self.path = get_default_path()
+		self.video_object = Video(self.path)
 		self.window = QMainWindow()
 		self.widget = QWidget()
 		self.font = QFont("Tisa", 15)
 		self.icon = QIcon(resource_path("./icon/icon.ico"))
+		self.check_mark = u'\u2713'
 
 	def initUI(self):
 		self.make_main_window()
@@ -73,6 +75,7 @@ class App(QMainWindow):
 		if self.dialog.exec_():
 			folder_name = self.dialog.selectedFiles()
 			self.path = folder_name[0]
+			self.video_object = Video(self.path)
 		self.folder_label.setText(self.path)
 	"""
 	confirmation when the user click on the X close button on the top right of the ui
@@ -166,8 +169,8 @@ class App(QMainWindow):
 	def lookup_button(self):
 		self.look_button = QPushButton("Lookup", self)
 		self.look_button.setGeometry(100, 160, 50, 35)
-		# self.look_button.setCheckable(True)
-		# self.look_button.setEnabled(False)
+		self.look_button.setCheckable(True)
+		self.look_button.setEnabled(False)
 		self.look_button.clicked.connect(self.list_video_widget)
 
 	def make_widget_window(self):
@@ -181,16 +184,74 @@ class App(QMainWindow):
 		win.moveCenter(center)
 		self.widget.move(win.topLeft())
 
-	def download_video_button(self):
-		self.download_button = QPushButton("Download",self.widget)
-		self.download_button.setGeometry(220, 330, 70, 50)
-
+	"""
+	list video widget that will display the video choseable by the user to download"
+		1. it can display single video because user enter single video link
+		2. it can display a list of videos by playlist link
+		flow:
+			lookup button clicked
+			thread to lookup by the url and display the video in list, meanwhile display searching in the window
+			if the url is not valid, it will display error and not downloadable
+			download button will start download the videos and once they are downloaded, there will be checkmark and it cant be select again from the same list
+	"""
 	def list_video(self):
 		self.list_widget = QListWidget(self.widget)
 		self.list_widget.setGeometry(0, 0, 300, 320) 
 		self.list_widget.setSelectionMode(2)
-		for i in range(0,100):
-			self.list_widget.addItem(str(i))
+		list_widget_thread = Thread(target=self.load_video,daemon=True)
+		self.list_widget.addItem("Searching Video....")
+		item = self.list_widget.item(0)
+		item.setFlags(item.flags() & ~Qt.ItemIsSelectable)
+		self.download_button.setEnabled(False)
+		list_widget_thread.start()
+
+	def load_video(self):
+		url = self.text_box.text()
+		if "youtube.com/watch" in url:
+			try:
+				self.hashmap = self.video_object.get_single_link(url)
+			except:
+				self.hashmap = None
+		elif "youtube.com/playlist" in url:
+			try:
+				self.hashmap = self.video_object.get_playlist_link(url)
+			except:
+				self.hashmap = None
+		elif "youtube.com/results?search_query" in url:
+			try:
+				self.hashmap = self.video_object.get_search_link(url)
+			except:
+				self.hashmap = None
+		if self.hashmap is None:
+			self.hashmap = {"Invalid Video":{"video_length":"NA","video_object":"NA"}}
+			self.download_button.setEnabled(False)
+		else:
+			self.download_button.setEnabled(True)
+		self.list_widget.clear()
+		for title, sub_dict in self.hashmap.items():
+			self.list_widget.addItem(f"{title}")
+
+	def download_video_button(self):
+		self.download_button = QPushButton("Download",self.widget)
+		self.download_button.setGeometry(220, 330, 70, 50)
+		self.download_button.setCheckable(True)
+		self.download_button.clicked.connect(self.make_download_thread)
+
+	def make_download_thread(self):
+		download_thread = Thread(target=self.download_action,daemon=True)
+		download_thread.start()
+
+	def download_action(self):
+		for item in self.list_widget.selectedItems():
+			item.setFlags(item.flags() & ~Qt.ItemIsSelectable)
+			title = item.text()
+			link = self.hashmap[title]["video_object"]
+			try:
+				item.setText(f"Downloading   {title}")
+				self.video_object.get_video(link,title)
+				item.setText(f"{self.check_mark}   {title}")
+			except Exception as e:
+				item.setText(f"{e}   {title}")
 
 	def list_video_widget(self):
 		self.make_widget_window()
@@ -231,3 +292,4 @@ def main():
 
 if __name__ == '__main__':
     main()
+
