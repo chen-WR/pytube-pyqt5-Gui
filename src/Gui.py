@@ -85,6 +85,7 @@ class App(QMainWindow):
 		event.ignore()
 		if result == QMessageBox.Yes:
 			event.accept()
+			self.video_object.remove_temp()
 			self.widget.close()
 			self.window.close()
 	"""
@@ -115,9 +116,10 @@ class App(QMainWindow):
 		self.combobox.setGeometry(10, 10, 111, 21)
 		self.combobox.addItem("Video")
 		self.combobox.addItem("Music")
+		self.combo_box_value = self.combobox.currentText()
 		self.combobox.activated.connect(self.combo_box_update_value)
 	def combo_box_update_value(self):
-			self.comboxbox_value = self.combobox.currentText()
+			self.combo_box_value = self.combobox.currentText()
 
 	"""
 	url_input_text_box will take the url input from user, check button press to verify the url:
@@ -246,41 +248,26 @@ class App(QMainWindow):
 			item.setFlags(item.flags() & ~Qt.ItemIsSelectable)
 			title = item.text()
 			link = self.hashmap[title]["video_object"]
-			try:
-				item.setText(f"Downloading   {title}")
-				self.video_object.get_video(link,title)
-				item.setText(f"{self.check_mark}   {title}")
-			except Exception as e:
-				item.setText(f"{e}   {title}")
+			if self.combo_box_value == "Video":
+				try:
+					item.setText(f"Downloading   {title}")
+					self.video_object.get_video(link,title)
+					item.setText(f"{self.check_mark}   {title}")
+				except Exception as e:
+					item.setText(f"{e}   {title}")
+			elif self.combo_box_value == "Music":
+				try:
+					item.setText(f"Downloading   {title}")
+					self.video_object.get_music(link,title)
+					item.setText(f"{self.check_mark}   {title}")
+				except Exception as e:
+					item.setText(f"{e}   {title}")
 
 	def list_video_widget(self):
 		self.make_widget_window()
 		self.download_video_button()
 		self.list_video()
 		self.widget.show()
-
-	# def searchLink(self):
-	# 	self.button2 = QPushButton("Search", self)
-	# 	self.button2.setGeometry(190,50,51,21)
-	# 	# self.button2.clicked.connect(self.listWindow)
-	# 	self.button2.setCheckable(True)
-	# 	self.button2.setEnabled(False)
-
-
-
-	# def singleVideo(self):
-	# 	video = Video(self.textbox.text(),self.path)
-	# 	if self.drop.currentText() == "Video":
-	# 		print('at video')
-	# 		video.downloadSingleVideo()
-	# 	elif self.drop.currentText() == "Music":
-	# 		print('at music')
-	# 		video.downloadSingleMusic()
-
-
-	# def start(self):
-	# 	if "youtube.com/watch" in self.textbox.text():
-	# 		self.singleVideo()
 
 def main():
 	QApplication.setAttribute(Qt.AA_EnableHighDpiScaling, True)

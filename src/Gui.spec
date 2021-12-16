@@ -3,10 +3,10 @@
 block_cipher = None
 
 
-a = Analysis(['Gui.py'],
-             pathex=['C:\\Users\\School\\Documents\\python\\script\\YouTubeDL'],
+a = Analysis(['gui.py'],
+             pathex=['C:\\Users\\Main\\Ddesktop\\youtubeDL\\pytube-pyqt5-Gui\\src'],
              binaries=[("./binary/ffmpeg.exe", "./binary")],
-             datas=[("./icon/icon.ico", "./icon"), ("./icon/help.ui", "./icon")],
+             datas=[("./icon/icon.ico", "./icon")],
              hiddenimports=[],
              hookspath=[],
              runtime_hooks=[],
