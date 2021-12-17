@@ -2,6 +2,7 @@ import sys
 import os 
 import re
 import requests
+import speedtest
 from winreg import OpenKey,QueryValueEx,HKEY_CURRENT_USER
 
 def edit_title(title):
@@ -36,3 +37,14 @@ def check_connection():
 	finally:
 		return connection
 
+# Return mbit speed for the pc
+def get_internet_speed():
+	speed_test = speedtest.Speedtest()
+	speed = speed_test.download()
+	megabit = (speed*(9.537*(10**(-7))))
+	return int(megabit)
+
+def get_estimate_time(speed,filesize):
+	size = filesize * (7.6294*(10**-6)) + 20.0
+	estimate_time = (size / speed)
+	return estimate_time
