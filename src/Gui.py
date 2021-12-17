@@ -79,7 +79,7 @@ class App(QMainWindow):
 		self.folder_label.setGeometry(110,90,151,71)
 		self.folder_label.setWordWrap(True)
 	def make_folder_button(self):
-		self.folder_button = QPushButton("Browse Folder", self)
+		self.folder_button = QPushButton("Browse", self)
 		self.folder_button.setGeometry(10,110,81,31)
 		self.folder_button.clicked.connect(self.browse_folder_function)
 	def browse_folder_function(self):
