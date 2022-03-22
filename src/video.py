@@ -45,6 +45,7 @@ class Video:
 		hashmap = dict()
 		try:
 			link = YouTube(url)
+			link.bypass_age_gate()
 			title = link.title
 			video_stream = link.streams.filter(only_video=True, file_extension="mp4", progressive=False).order_by("fps").order_by('resolution').desc().first()
 			audio_stream = link.streams.filter(only_audio=True, mime_type="audio/mp4").order_by("abr").desc().first()
@@ -60,6 +61,7 @@ class Video:
 		playlist = Playlist(url).videos
 		for link in playlist:
 			try:
+				link.bypass_age_gate()
 				title = link.title
 				video_stream = link.streams.filter(only_video=True, file_extension="mp4", progressive=False).order_by("fps").order_by('resolution').desc().first()
 				audio_stream = link.streams.filter(only_audio=True, mime_type="audio/mp4").order_by("abr").desc().first()
