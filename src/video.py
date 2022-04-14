@@ -5,6 +5,7 @@ import os
 import subprocess
 import logging
 import datetime
+import traceback
 
 class Video:
 	def __init__(self, path):
@@ -52,7 +53,7 @@ class Video:
 			hashmap.update({title:{"video_object":video_stream,"audio_object":audio_stream}})
 			return hashmap
 		except Exception as e:
-			print(e)
+			traceback.print_exc()
 			hashmap = None
 			return hashmap
 
